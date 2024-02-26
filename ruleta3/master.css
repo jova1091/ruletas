@@ -32,8 +32,8 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  margin-top: 70px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #ruleta {
@@ -43,7 +43,7 @@ h1 {
   width: var(--escala);
   border-radius: 50%;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 60px;
   -webkit-box-shadow: 0px 0px 19px -1px rgb(124, 124, 124);
   -moz-box-shadow: 0px 0px 19px -1px rgb(124, 124, 124);
   box-shadow: 0px 0px 19px -1px rgb(124, 124, 124);
@@ -55,7 +55,7 @@ h1 {
   align-items: center;
   position: relative;
   left: -150px;
-  top: -40px;
+  top: 0px;
   min-height: 55px;
   width: 300px;
   font-weight: bold;
@@ -66,8 +66,7 @@ h1 {
 #marcador {
   position: absolute;
   z-index: 10;
-  top: -20px;
-  left: calc(50% - 2px);
+  top: 10px;
   background-color: black;
   width: 6px;
   height: 100px;
