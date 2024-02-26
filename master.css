@@ -5,7 +5,7 @@
 
 .iframeContainer {
   position: relative;
-  padding-bottom: 39%; /* 16:9 */
+  padding-bottom: 30%; /* 16:9 */
   height: 0;
   flex: 1 0 auto;
 }
