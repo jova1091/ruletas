@@ -43,7 +43,7 @@ h1 {
   width: var(--escala);
   border-radius: 50%;
   overflow: hidden;
-  margin-top: 60px;
+  margin-top: 0px;
   -webkit-box-shadow: 0px 0px 19px -1px rgb(124, 124, 124);
   -moz-box-shadow: 0px 0px 19px -1px rgb(124, 124, 124);
   box-shadow: 0px 0px 19px -1px rgb(124, 124, 124);
