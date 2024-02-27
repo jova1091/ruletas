@@ -32,7 +32,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: calc(85vh + 80px);
   overflow: hidden;
 }
 
