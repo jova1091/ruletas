@@ -87,7 +87,7 @@ function sortear() {
   /** Numero del 0 al 1 que contiene al ganador del sorteo */
   const nSorteo = Math.random();
   /** Cantidad de grados que debe girar la ruleta */
-  const giroRuleta = (1 - nSorteo) * 360 + 360 * 10; //10 vueltas + lo aleatorio;
+  const giroRuleta = (1 - nSorteo) * 360 + 360 * 4; //10 vueltas + lo aleatorio;
   root.style.setProperty("--giroRuleta", giroRuleta + "deg");
   ruleta.classList.toggle("girar", true);
   /** Acumulador de probabilidad para calcular cuando una probabilidad fue ganadora */

@@ -32,7 +32,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 85vh;
   overflow: hidden;
 }
 
@@ -56,11 +56,17 @@ h1 {
   position: relative;
   left: -150px;
   top: 0px;
-  min-height: 55px;
+  min-height: 30px;
   width: 300px;
+  font-size: 1.2em;
   font-weight: bold;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: white;
+}
+
+#ganadorTexto {
+  margin: 0;
+  padding: 10px 0;
 }
 
 #marcador {
@@ -69,7 +75,7 @@ h1 {
   top: 10px;
   background-color: black;
   width: 6px;
-  height: 100px;
+  height: 80px;
   pointer-events: none;
   border-radius: 10px;
   left: calc(50% - 2px);
@@ -92,12 +98,12 @@ h1 {
 
 #sortear {
   position: absolute;
-  background-color: rgb(255, 76, 76);
+  background-color: black;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  top: calc(var(--escala) / 2 - 60px / 2);
-  left: calc(var(--escala) / 2 - 60px / 2);
+  width: 80px;
+  height: 80px;
+  top: calc(var(--escala) / 2 - 80px / 2);
+  left: calc(var(--escala) / 2 - 80px / 2);
   z-index: 2;
   text-align: center;
   cursor: pointer;
@@ -105,8 +111,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 900;
-  font-size: 0.8em;
+  font-weight: 600;
+  font-size: 1em;
+  color: rgb(255, 76, 76);
 }
 
 .opcion {
