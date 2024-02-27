@@ -37,7 +37,7 @@ const dos = {
   probabilidad: 11.112,
 };
 const tres = {
-  nombre: "Energia",
+  nombre: "Energía",
   probabilidad: 11.112,
 };
 const cuatro = {
