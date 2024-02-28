@@ -143,7 +143,7 @@ function ajustarRuleta() {
     pAcumulada += concepto.probabilidad;
     //Reseteo la posición y el cartel
     ruleta.style.transform = "rotate(0deg)";
-    ganadorTextoElement.textContent = "¡Click en Girar para iniciar!";
+    ganadorTextoElement.textContent = `¡Click en "Girar" para iniciar!`;
   });
 }
 

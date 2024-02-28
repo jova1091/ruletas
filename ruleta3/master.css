@@ -130,7 +130,7 @@ h1 {
 /* Texto de opcion*/
 .nombre {
   margin: 0;
-  padding-top: 30px;
+  padding-top: 20px;
   color: white;
   text-align: center;
   height: calc(var(--escala) / 2);
